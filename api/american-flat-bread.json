@@ -1,0 +1,15 @@
+{
+  "id": "american-flatbread",
+  "name": "American Flatbread",
+  "address": "115 St Paul St Burlington, VT 05401",
+  "coords": "[44.4766084, -73.2164283]",
+  "category": "Comfort Food",
+  "phone": "802-861-2999",
+  "website": "https://americanflatbread.com",
+  "hours": "Monday - Friday: 11:30 a.m. - 3:00 p.m. & 5:00 p.m. - 11:30 p.m. Saturday - Sunday: 11:30 a.m. - 11:30 p.m.",
+  "notes": [
+    "Cozy place with lot of vegetarian pizza options!",
+    "Use local organic products to make Tasty wood-fired pizza ",
+    "Delicious artisanal flatbread"
+  ]
+}
