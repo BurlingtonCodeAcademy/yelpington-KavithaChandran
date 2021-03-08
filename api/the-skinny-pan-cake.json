@@ -3,13 +3,14 @@
   "name": "The Skinny Pancake",
   "address": "60 Lake St Ste 1A, Burlington Vermont 05401",
   "category": "Comfort Food",
-  "coords": "[44.4769319,-73.2200307]",
+  "latitude": 44.4769319,
+  "longitude":-73.2200307,
   "phone": "802-540-0188",
   "website": "https://skinnypancake.com/",
   "hours": "Sunday-Wednesday: 8:00am to 8:00pm, Thursday-Saturday: 8:00am to 9:00pm",
   "notes": [
     "Located right across the waterfront, Great ambience and live music",
-    "Source local Vermont food",
+    
     "They serve  sweet & savory crepes, panini and sandwiches"
   ]
 }

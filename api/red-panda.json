@@ -2,13 +2,11 @@
   "id": "red-panda",
   "name": "Red Panda",
   "address": "161 Church Street, Burlington Vermont 05401",
-  "coords": "[44.4756528, -73.2148698]",
+  "latitude": 44.4756528,
+  "longitude": -73.2148698,
   "category": "Indian Comfort Food",
   "phone": "802-448-3215",
   "website": "https://www.redpandavt.com/",
-  "hours": "Wednesday - Friday: 11:30a.m. - 2p.m., 5:00p.m. - 9:00p.m., Saturday - Sunday 12:00 - 3:00, 4:00 - 8:30",
-  "notes": [
-    "Serves authentic Nepali, Indian and Indo-Chinese cuisine",
-    "Chicken Lollipop is my favorite and the best out of other restaurants in Vermont"
-  ]
+  "hours": "Wednesday - Friday: 11:30a.m. - 9:00p.m., Saturday - Sunday 12:00 - 8:30",
+  "notes": ["Serves authentic Nepali, Indian and Indo-Chinese cuisine"]
 }
