@@ -1,0 +1,18 @@
+{
+  "id": "single-pebble",
+  "name": "A Single Pebble",
+  "address": "133 Bank St., Burlington Vermont 05401",
+  "category": "Classic Chinese",
+  "latitude": 44.4779646,
+  "longitude": -73.2167659,
+  "phone": "802-865-5200",
+  "website": "https://asinglepebble.com/",
+  "hours": [
+    "Tuesday-Thursday:3:30PM TO 8PM",
+    "Friday-saturday:3:30PM TO 8:45PM"
+  ],
+  "notes": [
+    " Little more expensive than your regular Chinese joint but it tastes great"
+    
+  ]
+}

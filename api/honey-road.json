@@ -1,0 +1,12 @@
+{
+  "id": "honey-road",
+  "name": "Honey Road",
+  "address": "156 Church Street, Burlington Vermont 05401",
+  "latitude": 44.4761196,
+  "longitude": -73.2144323,
+  "category": "Mediterranean Small Plates",
+  "phone": "802-497-2145",
+  "website": "https://www.honeyroadrestaurant.com/",
+  "hours": "Sunday - Saturday: 4:00pm - 10:00pm",
+  "notes": ["Try their Falafel pita and donut "]
+}

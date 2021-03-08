@@ -1,0 +1,52 @@
+[
+  {
+    "name": "American Flatbread",
+    "latitude": 44.4766084,
+    "longitude": -73.2164283
+  },
+
+  {
+    "name": "Hen of The Wood",
+    "latitude": 44.4790471,
+    "longitude": -73.2195496
+  },
+
+  {
+    "name": "Honey Road",
+    "latitude": 44.4761196,
+    "longitude": -73.2144323
+  },
+
+  {
+    "name": "Istanbul Kebab House",
+    "latitude": 44.4754259,
+    "longitude": -73.2142202
+  },
+
+  {
+    "name": "Kountry Kart Deli",
+    "latitude": 44.4756979,
+    "longitude": -73.2151394
+  },
+
+  {
+    "name": "Red Panda",
+    "latitude": 44.4756528,
+    "longitude": -73.2148698
+  },
+  {
+    "name": "A Single Pebble",
+    "latitude": 44.4779646,
+    "longitude": -73.2167659
+  },
+  {
+    "name": "SweetWaters",
+    "latitude": 44.4769943,
+    "longitude": -73.2146144
+  },
+  {
+    "name": "The Skinny Pancake",
+    "latitude": 44.4769319,
+    "longitude": -73.2200307
+  }
+]

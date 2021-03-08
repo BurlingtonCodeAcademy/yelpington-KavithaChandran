@@ -1,0 +1,20 @@
+{
+  "id": "sweet-waters",
+  "name": "SweetWaters",
+  "address": "120 Church St., Burlington Vermont 05401",
+  "category": "Comfort Food, Classic American Cuisine",
+  "latitude": 44.4769943,
+  "longitude":-73.2146144,
+  "phone": "802-864-9800",
+  "website": "https://sweetwatersvt.com/",
+  "hours": [
+ 
+    "Monday to Thursday-12:00 PM to 9:30 PM",
+    "Friday-Sunday:11:30 AM to 10:00 PM"],
+
+  "notes": [
+    
+    "American Bistro classics made with local ingredients",
+    "Great selection of craft beer and cocktails"
+  ]
+}
