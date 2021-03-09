@@ -32,25 +32,25 @@ app.get("/api/:restaurant", (req, res) => {
   res.sendFile(path.resolve('./api/' + req.params.restaurant + '.json'));
 });
 
-//set up catch all route 
+//set up to catch all route 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve('./client/public/index.html'))
 });
 
 
 //when you submit the new article form
-
 // server ready to accept the comment request when the form is submitted 
-app.post('/notes/:restaurant',
+app.post('/note/:restaurant',
   //this acts as a middleware for the server to get ready to accept the form
   express.urlencoded({ extended: false }),
   (req, res) => {
     // store new comment
-    let newComment = req.body
+    let newNote = req.body
     //stores the restaurant Id
     let restaurantId = req.params.restaurant
+
     // now the add comment function is called to the response (i.e)new comment to the rite restaurant json file
-    addComment(restaurantId, newComment, res)
+    addComment(restaurantId, newNote, res)
   })
 
 
@@ -64,6 +64,7 @@ function allRestaurants() {
 
   return (
     fs
+      //synchronously reads the contents of the directory
       .readdirSync(path.resolve("./api"))
       //filters the file from 
       .filter((file) => file.endsWith(".json"))
@@ -73,29 +74,28 @@ function allRestaurants() {
   )
 }
 
-//Function to add comment
+//Function to add/update the  comments
 
-function addComment(newComment, restaurantId, res) {
-
+function addComment(restaurantId, newNote, res) {
+  console.log(restaurantId)
   //variable is assigned to the route to pull the restaurant information
-
   let restaurantDataFile = "./api/" + restaurantId + ".json"
-
-  let restaurantComment = JSON.parse(fs.readFileSync("./api" + restaurantId + ".json"))
-
+  //readFileSync-read the full content of the file in memory before returning the data
+  let restaurantComment = JSON.parse(fs.readFileSync(restaurantDataFile))
+  console.log(restaurantComment)
   //add a new comment to the already existing restaurant info
-  restaurantComment.notes.push(newComment.body)
-
-
+  restaurantComment.notes.push(newNote.body)
+  console.log(restaurantComment)
   // the current notes section is updated with the new comments added
   //json stringify is important to convert js objects to json when sending it over to server
+  //fs.writeFileSync-creates a new file when a file doesn't exist
   fs.writeFileSync(restaurantDataFile, JSON.stringify(restaurantComment), (err) => {
     if (err) {
       //if any error the error page is loaded
       res.status(500).send(err);
     } else {
       //or else redirected to the restaurants api page
-      res.redirect(`/restaurant/${restaurantId}`);
+      res.sendFile(path.resolve('./client/public/index.html'));
     }
   });
 

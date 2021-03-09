@@ -1,17 +1,1 @@
-{
-  "id": "istanbul-kebab-house",
-  "name": "Istanbul Kebab House",
-  "address": "175 Church St. Burlington, VT 05401",
-  "latitude": 44.4754259,
-  "longitude": -73.2142202,
-  "category": "Turkish, Mediterranean",
-  "phone": "802-857-5091",
-  "website": "http://www.instanbulkebabhousevt.com",
-  "hours": [
-    "Sunday: 11am - 9pm ,Monday: Closed,Tuesday - Saturday: 11am - 9pm"
-  ],
-  "notes": [
-    "Family run Authentic Turkish cuisine",
-    "My favorite is chicken kabob and turkish coffee"
-  ]
-}
+{"id":"istanbul-kebab-house","name":"Istanbul Kebab House","address":"175 Church St. Burlington, VT 05401","latitude":44.4754259,"longitude":-73.2142202,"category":"Turkish, Mediterranean","phone":"802-857-5091","website":"http://www.instanbulkebabhousevt.com","hours":["Sunday: 11am - 9pm ,Monday: Closed,Tuesday - Saturday: 11am - 9pm"],"notes":["Family run Authentic Turkish cuisine","My favorite is chicken kabob and turkish coffee","sweet"]}

@@ -26,7 +26,7 @@ function Restaurants(props) {
         if (restaurantInfo.id === '' || restaurantInfo.id !== restInfo) {
 
             //fetch the restaurant id from the api points
-            fetch(`/api/${props.match.params.id}`)
+            fetch(`/api/${restInfo}`)
                 .then((res) => res.json())
                 //store the fetch in a intermediate guard clause
                 .then(restaurantDetails => {
@@ -60,9 +60,9 @@ function Restaurants(props) {
 
             {/*Comments are added to page */}
             <div id="people-comments">
-                <h3>Comments:</h3>
+                <h3>Post Your Comments:</h3>
                 <div id="review">
-                    <form id="post-review" method="POST" action={`/notes/${restInfo}`}>
+                    <form id="post-review" method="POST" action={`/note/${restInfo}`}>
 
                         <textarea id="textarea" name="body" placeholder="Add a Comment"></textarea>
                         <input id="submit" type="submit" name="comment" />
