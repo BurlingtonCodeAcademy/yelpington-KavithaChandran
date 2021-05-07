@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000
 
 
 //helps to access the html  files 
-app.use(express.static('./client/build'))
+app.use('/static',express.static(path.join(__dirname,'client/build')))
 
 //API endpoint for Search.json
 app.get('/api.json', (req, res) => {
