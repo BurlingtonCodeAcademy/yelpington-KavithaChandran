@@ -1,7 +1,5 @@
 import { Route, Switch, Redirect } from "react-router-dom"
 import './App.css';
-
-
 import { useState } from 'react'
 import Restaurants from './components/Restaurant.js'
 import NotFound from './components/404.js'
