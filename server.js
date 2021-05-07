@@ -3,15 +3,15 @@ const fs = require("fs");
 const express = require('express')
 const app = express()
 const path = require('path')
-const staticDir = path.resolve("./client/build");
+
 // set up port variable / server  to host at 5000 as default
 const port = process.env.PORT || 5000
 
 
 
 //helps to access the html  files 
-app.use('/static',express.static(path.join(__dirname,'client/build')))
-
+app.use(express.static('./client/public'))
+//app.use('/static',express.static(path.join(__dirname,'client/build')))
 //API endpoint for Search.json
 app.get('/api.json', (req, res) => {
   let api = allRestaurants();
