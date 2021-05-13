@@ -7,7 +7,7 @@ const path = require('path')
 // set up port variable / server  to host at 5000 as default
 const port = process.env.PORT || 5000
 
-
+const staticDir = path.resolve("./client/build");
 
 //helps to access the html  files 
 app.use(express.static('./client/build'))
