@@ -9,7 +9,7 @@ import {
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import React from 'react'
-import MapComponent from "./MapComponent.js";
+import MapComponent from "./mapComponent.js";
 
 //---Map Functionality---//
 

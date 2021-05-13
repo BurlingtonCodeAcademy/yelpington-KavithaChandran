@@ -1,10 +1,10 @@
 import { Route, Switch, Redirect } from "react-router-dom"
 import './App.css';
 import { useState } from 'react'
-import Restaurants from './components/Restaurant.js'
+import Restaurants from './components/restaurant.js'
 import NotFound from './components/404.js'
-import Home from './components/Home.js'
-import Map from './components/Map.js'
+import Home from './components/home.js'
+import Map from './components/map.js'
 
 
 function App(props) {
