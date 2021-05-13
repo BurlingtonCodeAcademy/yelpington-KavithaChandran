@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react'
 import Restaurants from './components/restaurant.js'
 import NotFound from './components/404.js'
-import Home from './components/home.js'
+import Home  from './components/home.js'
 import Map from './components/map.js'
 
 
