@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Restaurants from './components/restaurant.js'
 import NotFound from './components/404.js'
 import Home  from './components/Home.js'
-import Map from './components/map.js'
+import Map from './components/Map.js'
 
 
 function App(props) {
