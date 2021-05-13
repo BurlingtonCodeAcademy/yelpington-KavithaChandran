@@ -34,7 +34,7 @@ app.get("/api/:restaurant", (req, res) => {
 
 //set up to catch all route 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve('./client/public/index.html'))
+  res.sendFile(path.resolve('./client/build/index.html'))
 });
 
 
@@ -95,7 +95,7 @@ function addComment(restaurantId, newNote, res) {
       res.status(500).send(err);
     } else {
       //or else redirected to the restaurants api page
-      res.sendFile(path.resolve('./client/public/index.html'));
+      res.sendFile(path.resolve('./client/build/index.html'));
     }
   });
 
